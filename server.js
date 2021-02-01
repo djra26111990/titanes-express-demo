@@ -29,7 +29,7 @@ app.use(cors());
 app.use(express.static('./public'));
 
 app.get('/*', function(req, res) {
-  res.sendFile(path.join__dirname, '/public/index.html');
+  res.sendFile(path.join(__dirname, '/public/index.html'));
 });
 
 
