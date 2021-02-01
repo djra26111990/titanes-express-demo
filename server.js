@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+const path = require('path');
 const compression = require('compression');
 const cors = require('cors')/*
 const imagemin = require('imagemin');
